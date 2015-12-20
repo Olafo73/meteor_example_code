@@ -1,0 +1,106 @@
+<head>
+  <title>example-app</title>
+</head>
+
+<body>
+</body>
+
+<template name="signin">
+  <div class="signin">
+    <h1>Sign In</h1>
+    {{> loginButtons}}
+  </div>
+
+  <div class="example-users">
+    <p>Normal User: normal@example.com | apple1</p>
+    <p>View Secrets: view@example.com | apple1</p>
+    <p>Manage User: manage@example.com | apple1</p>
+    <p>Admin User: admin@example.com | apple1</p>
+  </div>
+</template>
+
+<template name="loading">
+  <h1>Loading...</h1>
+</template>
+
+<template name="awaiting-verification">
+  <h1>Awaiting email verification...</h1>
+</template>
+
+<template name="not_found">
+  <h3>404 - Not found</h3>
+</template>
+
+<template name="invalid_access">
+  <h3>403 Forbidden - Invalid Access</h3>
+</template>
+
+<template name="header">
+  <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        <a class="btn btn-navbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </a>
+        <a class="brand" href="/">Roles Example App</a>
+
+        {{#if currentUser}}
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+
+              <li><a href="/start">Start Page</a></li>
+
+              {{#if isInRole 'admin, view-secrets'}}
+                <li><a href="/secrets">Secrets</a></li>
+              {{/if}}
+
+              <li class="dropdown pull-right">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{displayName}}<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  {{#if isInRole 'admin, manage-users'}}
+                    <li><a href="/manageUsers">Manage Users</a></li>
+                  {{/if}}
+                  <li><a href="/signout" class="signout">Sign out</a></li>
+                </ul>
+              </li>
+
+            </ul>
+          </div>
+        {{/if}}
+
+      </div>
+    </div>
+  </div>
+</template>
+
+<template name="start">
+  <div class="page row">
+    <div class="offset4 span8">
+
+      <p class="note">All logged-in users will see this page in their header nav.</p>
+      <h2>Start Page</h2>
+
+      {{> noteOfTheDay}}
+
+      <div>
+        <p>This applicatión is an example application for the <a href="https://github.com/alanning/meteor-roles"><em>meteor-roles</em></a> smart package.</p>
+      </div>
+
+      {{> securityNote}}
+    </div>
+  </div>
+</template>
+
+<template name="noteOfTheDay">
+  <p>Note of the day: {{note}}</p>
+</template>
+
+<template name="securityNote">
+  <div class="security-note">
+    <p>
+      tracatracatrá
+    </p>
+  </div>
+</template>
