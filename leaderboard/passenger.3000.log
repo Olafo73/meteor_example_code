@@ -1,0 +1,74 @@
+[ 2015-12-14 15:04:56.9279 91244/0x7fff72af9000 age/Wat/WatchdogMain.cpp:1276 ]: Starting Passenger watchdog...
+[ 2015-12-14 15:04:56.9649 91246/0x7fff72af9000 age/Cor/CoreMain.cpp:957 ]: Starting Passenger core...
+[ 2015-12-14 15:04:56.9657 91246/0x7fff72af9000 age/Cor/CoreMain.cpp:234 ]: Passenger core running in multi-application mode.
+[ 2015-12-14 15:04:56.9760 91246/0x7fff72af9000 age/Cor/CoreMain.cpp:707 ]: Passenger core online, PID 91246
+[ 2015-12-14 15:04:56.9973 91248/0x7fff72af9000 age/Ust/UstRouterMain.cpp:504 ]: Starting Passenger UstRouter...
+[ 2015-12-14 15:04:56.9985 91248/0x7fff72af9000 age/Ust/UstRouterMain.cpp:317 ]: Passenger UstRouter online, PID 91248
+App 91263 stdout: 
+App 91263 stdout: [[[[[ ~/Desktop/pruebas/meteor/leaderboard ]]]]]
+App 91263 stdout: 
+App 91263 stdout: => Started proxy.
+App 91263 stdout: => Started MongoDB.
+App 91263 stdout: => Started your app.
+App 91263 stdout: 
+App 91263 stdout: => App running at: http://localhost:4625/
+
+
+[ 2015-12-14 16:25:24.6298 91246/0x70000018a000 age/Cor/CoreMain.cpp:507 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-12-14 16:25:24.6300 91246/0x7fff72af9000 age/Cor/CoreMain.cpp:876 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-12-14 16:25:24.6298 91248/0x700000104000 age/Ust/UstRouterMain.cpp:397 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-12-14 16:25:24.6301 91248/0x7fff72af9000 age/Ust/UstRouterMain.cpp:467 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-12-14 16:25:24.6309 91246/0x7fff72af9000 age/Cor/CoreMain.cpp:794 ]: Disconnecting long-running connections for process 91263, application /Users/nacho/Desktop/pruebas/meteor/leaderboard/public (development)
+[ 2015-12-14 16:25:24.6321 91248/0x70000020a000 Ser/Server.h:758 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2015-12-14 16:25:24.6323 91248/0x70000020a000 Ser/Server.h:444 ]: [UstRouterApiServer] Shutdown finished
+[ 2015-12-14 16:25:24.6323 91248/0x700000104000 Ser/Server.h:444 ]: [UstRouter] Shutdown finished
+[ 2015-12-14 16:25:24.6332 91246/0x700000396000 Ser/Server.h:758 ]: [ServerThr.3] Freed 128 spare client objects
+[ 2015-12-14 16:25:24.6333 91246/0x700000396000 Ser/Server.h:444 ]: [ServerThr.3] Shutdown finished
+[ 2015-12-14 16:25:24.6333 91246/0x70000018a000 Ser/Server.h:758 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2015-12-14 16:25:24.6334 91246/0x70000018a000 Ser/Server.h:444 ]: [ServerThr.1] Shutdown finished
+[ 2015-12-14 16:25:24.6335 91246/0x700000290000 Ser/Server.h:758 ]: [ServerThr.2] Freed 128 spare client objects
+[ 2015-12-14 16:25:24.6335 91246/0x700000290000 Ser/Server.h:444 ]: [ServerThr.2] Shutdown finished
+[ 2015-12-14 16:25:24.6331 91246/0x7000005a2000 Ser/Server.h:758 ]: [ApiServer] Freed 0 spare client objects
+[ 2015-12-14 16:25:24.6337 91246/0x7000005a2000 Ser/Server.h:444 ]: [ApiServer] Shutdown finished
+[ 2015-12-14 16:25:24.6339 91246/0x70000049c000 Ser/Server.h:758 ]: [ServerThr.4] Freed 128 spare client objects
+[ 2015-12-14 16:25:24.6339 91246/0x70000049c000 Ser/Server.h:444 ]: [ServerThr.4] Shutdown finished
+[ 2015-12-14 16:25:24.6351 91248/0x7fff72af9000 age/Ust/UstRouterMain.cpp:498 ]: Passenger UstRouter shutdown finished
+[ 2015-12-14 16:25:24.6370 91246/0x7fff72af9000 age/Cor/CoreMain.cpp:794 ]: Disconnecting long-running connections for process 91263, application /Users/nacho/Desktop/pruebas/meteor/leaderboard/public (development)
+[ 2015-12-14 16:25:24.9635 91246/0x7fff72af9000 age/Cor/CoreMain.cpp:942 ]: Passenger core shutdown finished
+[ 2015-12-14 16:42:28.6883 93621/0x7fff72af9000 age/Wat/WatchdogMain.cpp:1276 ]: Starting Passenger watchdog...
+[ 2015-12-14 16:42:28.7298 93623/0x7fff72af9000 age/Cor/CoreMain.cpp:957 ]: Starting Passenger core...
+[ 2015-12-14 16:42:28.7307 93623/0x7fff72af9000 age/Cor/CoreMain.cpp:234 ]: Passenger core running in multi-application mode.
+[ 2015-12-14 16:42:28.7400 93623/0x7fff72af9000 age/Cor/CoreMain.cpp:707 ]: Passenger core online, PID 93623
+[ 2015-12-14 16:42:28.7524 93625/0x7fff72af9000 age/Ust/UstRouterMain.cpp:504 ]: Starting Passenger UstRouter...
+[ 2015-12-14 16:42:28.7535 93625/0x7fff72af9000 age/Ust/UstRouterMain.cpp:317 ]: Passenger UstRouter online, PID 93625
+App 93640 stdout: 
+App 93640 stdout: [[[[[ ~/Desktop/pruebas/meteor/leaderboard ]]]]]
+App 93640 stdout: 
+App 93640 stdout: => Started proxy.
+App 93640 stdout: => Started MongoDB.
+App 93640 stdout: => Started your app.
+App 93640 stdout: 
+App 93640 stdout: => App running at: http://localhost:10430/
+
+[ 2015-12-14 16:45:30.3518 93623/0x70000018a000 age/Cor/CoreMain.cpp:507 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-12-14 16:45:30.3518 93623/0x7fff72af9000 age/Cor/CoreMain.cpp:876 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-12-14 16:45:30.3518 93623/0x7fff72af9000 age/Cor/CoreMain.cpp:794 ]: Disconnecting long-running connections for process 93640, application /Users/nacho/Desktop/pruebas/meteor/leaderboard/public (development)
+
+[ 2015-12-14 16:45:30.3519 93625/0x700000104000 age/Ust/UstRouterMain.cpp:397 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-12-14 16:45:30.3520 93625/0x7fff72af9000 age/Ust/UstRouterMain.cpp:467 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-12-14 16:45:30.3521 93623/0x70000018a000 Ser/Server.h:758 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2015-12-14 16:45:30.3522 93623/0x70000018a000 Ser/Server.h:444 ]: [ServerThr.1] Shutdown finished
+[ 2015-12-14 16:45:30.3522 93625/0x700000104000 Ser/Server.h:444 ]: [UstRouter] Shutdown finished
+[ 2015-12-14 16:45:30.3522 93625/0x70000020a000 Ser/Server.h:758 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2015-12-14 16:45:30.3522 93625/0x70000020a000 Ser/Server.h:444 ]: [UstRouterApiServer] Shutdown finished
+[ 2015-12-14 16:45:30.3523 93623/0x700000290000 Ser/Server.h:758 ]: [ServerThr.2] Freed 128 spare client objects
+[ 2015-12-14 16:45:30.3524 93623/0x700000290000 Ser/Server.h:444 ]: [ServerThr.2] Shutdown finished
+[ 2015-12-14 16:45:30.3526 93623/0x700000396000 Ser/Server.h:758 ]: [ServerThr.3] Freed 128 spare client objects
+[ 2015-12-14 16:45:30.3526 93623/0x700000396000 Ser/Server.h:444 ]: [ServerThr.3] Shutdown finished
+[ 2015-12-14 16:45:30.3528 93623/0x70000049c000 Ser/Server.h:758 ]: [ServerThr.4] Freed 128 spare client objects
+[ 2015-12-14 16:45:30.3528 93623/0x70000049c000 Ser/Server.h:444 ]: [ServerThr.4] Shutdown finished
+[ 2015-12-14 16:45:30.3535 93625/0x7fff72af9000 age/Ust/UstRouterMain.cpp:498 ]: Passenger UstRouter shutdown finished
+[ 2015-12-14 16:45:30.3540 93623/0x7000005a2000 Ser/Server.h:758 ]: [ApiServer] Freed 0 spare client objects
+[ 2015-12-14 16:45:30.3540 93623/0x7000005a2000 Ser/Server.h:444 ]: [ApiServer] Shutdown finished
+[ 2015-12-14 16:45:30.3541 93623/0x7fff72af9000 age/Cor/CoreMain.cpp:794 ]: Disconnecting long-running connections for process 93640, application /Users/nacho/Desktop/pruebas/meteor/leaderboard/public (development)
+[ 2015-12-14 16:45:30.5744 93623/0x7fff72af9000 age/Cor/CoreMain.cpp:942 ]: Passenger core shutdown finished
